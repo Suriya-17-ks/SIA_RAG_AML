@@ -1,0 +1,44 @@
+# --- Core API ---
+fastapi
+uvicorn
+python-multipart
+
+# --- LangChain ecosystem ---
+langchain
+langchain-community
+langchain-openai
+langgraph
+
+# --- LLM Providers (FREE OPTIONS) ---
+google-generativeai
+groq
+
+# --- Vector DB ---
+chromadb
+
+# --- PDF structural ingestion ---
+docling
+
+# --- Embeddings ---
+sentence-transformers
+tf-keras
+
+# --- Sparse retrieval ---
+rank-bm25
+
+# --- Web search / HTTP ---
+requests
+beautifulsoup4
+
+# --- Utilities ---
+python-dotenv
+pydantic
+pydantic-settings
+tqdm
+
+# --- Visualization ---
+plotly
+umap-learn
+scikit-learn
+pandas
+

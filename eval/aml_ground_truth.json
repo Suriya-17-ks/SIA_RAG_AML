@@ -1,0 +1,696 @@
+[
+    {
+        "query": "What are the core CDD requirements under FATF?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "Customer Due Diligence",
+            "beneficial owner",
+            "business relations",
+            "FATF Recommendation 10"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "CDD",
+        "difficulty": "easy"
+    },
+    {
+        "query": "Under RBI guidelines, how long must KYC records be maintained?",
+        "intent": "fact",
+        "expected_answer_keywords": [
+            "five years",
+            "5 years",
+            "account has been closed"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "RecordKeeping",
+        "difficulty": "easy"
+    },
+    {
+        "query": "What constitutes a suspicious transaction reporting obligation to FIU-IND?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "STR",
+            "Suspicious Transaction Report",
+            "unusually complex",
+            "7 days"
+        ],
+        "jurisdiction": "FIU-IND",
+        "regulation_type": "STR",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Compare the record-keeping requirements of FATF Recommendation 11 and PMLA Section 12.",
+        "intent": "cross_jurisdiction",
+        "expected_answer_keywords": [
+            "five years",
+            "FATF Recommendation 11",
+            "PMLA Section 12",
+            "transactions and correspondence"
+        ],
+        "jurisdiction": "Cross",
+        "regulation_type": "RecordKeeping",
+        "difficulty": "hard"
+    },
+    {
+        "query": "Does our internal policy satisfy the RBI mandate for high-risk customer EDD?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "COVERED",
+            "PARTIAL",
+            "MISSING",
+            "Enhanced Due Diligence",
+            "high risk"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "EDD",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Suggest remediation language for missing FATF wire transfer obligations.",
+        "intent": "remediation",
+        "expected_answer_keywords": [
+            "Recommendation 16",
+            "originator information",
+            "beneficiary information",
+            "cross-border wire transfers"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "WireTransfers",
+        "difficulty": "hard"
+    },
+    {
+        "query": "What is the cash transaction reporting threshold set by FIU-IND?",
+        "intent": "fact",
+        "expected_answer_keywords": [
+            "10 lakh",
+            "ten lakh rupees",
+            "CTR"
+        ],
+        "jurisdiction": "FIU-IND",
+        "regulation_type": "CTR",
+        "difficulty": "easy"
+    },
+    {
+        "query": "According to the PMLA, who is considered a beneficial owner?",
+        "intent": "summary",
+        "expected_answer_keywords": [
+            "natural person",
+            "ultimate ownership",
+            "25 percent",
+            "15 percent"
+        ],
+        "jurisdiction": "PMLA",
+        "regulation_type": "KYC",
+        "difficulty": "medium"
+    },
+    {
+        "query": "What are the SEBI AML guidelines for identifying politically exposed persons (PEPs)?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "PEP",
+            "Politically Exposed Person",
+            "prominent public functions",
+            "senior management approval"
+        ],
+        "jurisdiction": "SEBI",
+        "regulation_type": "PEP",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Based on RBI's 2023 Master Direction, evaluate our CTR submission process.",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "COVERED",
+            "PARTIAL",
+            "MISSING",
+            "15th of the succeeding month",
+            "FIU-IND"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "CTR",
+        "difficulty": "hard"
+    },
+    {
+        "query": "What penalties apply under PMLA for failing to maintain records?",
+        "intent": "fact",
+        "expected_answer_keywords": [
+            "fine",
+            "ten thousand rupees",
+            "one lakh rupees"
+        ],
+        "jurisdiction": "PMLA",
+        "regulation_type": "General",
+        "difficulty": "easy"
+    },
+    {
+        "query": "Summarize the FATF requirements for Designated Non-Financial Businesses and Professions (DNFBPs).",
+        "intent": "summary",
+        "expected_answer_keywords": [
+            "DNFBP",
+            "Recommendation 22",
+            "Recommendation 23",
+            "CDD",
+            "record-keeping"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "General",
+        "difficulty": "medium"
+    },
+    {
+        "query": "How do FIU-IND and RBI differ in their definitions of suspicious transactions?",
+        "intent": "cross_jurisdiction",
+        "expected_answer_keywords": [
+            "FIU-IND",
+            "RBI",
+            "STR",
+            "unusual",
+            "economic rationale",
+            "terrorist financing"
+        ],
+        "jurisdiction": "Cross",
+        "regulation_type": "STR",
+        "difficulty": "hard"
+    },
+    {
+        "query": "Provide remediation for our policy lacking a risk-based approach to CDD.",
+        "intent": "remediation",
+        "expected_answer_keywords": [
+            "Risk-Based Approach",
+            "RBA",
+            "enhanced measures",
+            "high risk",
+            "simplified measures"
+        ],
+        "jurisdiction": "General",
+        "regulation_type": "CDD",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Is reliance on third parties permitted for CDD under RBI rules?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "third party",
+            "ultimate responsibility",
+            "regulated entity",
+            "records"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "CDD",
+        "difficulty": "medium"
+    },
+    {
+        "query": "What does FATF Recommendation 10 say about ongoing monitoring of business relations?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "ongoing due diligence",
+            "monitoring",
+            "transactions",
+            "consistent with knowledge",
+            "FATF Recommendation 10"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "CDD",
+        "difficulty": "medium"
+    },
+    {
+        "query": "What is the timeline for STR filing under PMLA rules?",
+        "intent": "fact",
+        "expected_answer_keywords": [
+            "7 days",
+            "seven days",
+            "suspicious transaction",
+            "FIU-IND",
+            "Principal Officer"
+        ],
+        "jurisdiction": "PMLA",
+        "regulation_type": "STR",
+        "difficulty": "easy"
+    },
+    {
+        "query": "Does FATF define thresholds for Enhanced Due Diligence on high-risk customers?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "Enhanced Due Diligence",
+            "EDD",
+            "high-risk",
+            "politically exposed",
+            "additional information"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "EDD",
+        "difficulty": "medium"
+    },
+    {
+        "query": "What are the RBI's requirements for PEP monitoring for domestic customers?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "domestic PEP",
+            "senior management",
+            "source of funds",
+            "enhanced monitoring",
+            "RBI"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "PEP",
+        "difficulty": "hard"
+    },
+    {
+        "query": "Compare FATF Recommendation 16 (wire transfers) with RBI's cross-border payment guidelines.",
+        "intent": "cross_jurisdiction",
+        "expected_answer_keywords": [
+            "wire transfer",
+            "originator",
+            "beneficiary",
+            "cross-border",
+            "threshold",
+            "USD 1000"
+        ],
+        "jurisdiction": "Cross",
+        "regulation_type": "WireTransfers",
+        "difficulty": "hard"
+    },
+    {
+        "query": "How does SEBI's AML circular differ from RBI's KYC Master Direction for customer risk categorisation?",
+        "intent": "cross_jurisdiction",
+        "expected_answer_keywords": [
+            "SEBI",
+            "RBI",
+            "risk categorisation",
+            "low risk",
+            "medium risk",
+            "high risk"
+        ],
+        "jurisdiction": "Cross",
+        "regulation_type": "KYC",
+        "difficulty": "hard"
+    },
+    {
+        "query": "What does FATF say about the role of compliance officers in AML programs?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "compliance officer",
+            "AML program",
+            "internal controls",
+            "designated",
+            "Recommendation 18"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "General",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Compare the Beneficial Ownership thresholds between PMLA and FATF standards.",
+        "intent": "cross_jurisdiction",
+        "expected_answer_keywords": [
+            "25 percent",
+            "beneficial owner",
+            "FATF",
+            "PMLA",
+            "10 percent",
+            "control"
+        ],
+        "jurisdiction": "Cross",
+        "regulation_type": "BeneficialOwnership",
+        "difficulty": "hard"
+    },
+    {
+        "query": "Suggest remediation for our STR policy which does not mention a Principal Officer role.",
+        "intent": "remediation",
+        "expected_answer_keywords": [
+            "Principal Officer",
+            "STR",
+            "FIU-IND",
+            "designated",
+            "report within"
+        ],
+        "jurisdiction": "FIU-IND",
+        "regulation_type": "STR",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Our policy lacks a UBO identification clause. What should we add to comply with RBI and FATF?",
+        "intent": "remediation",
+        "expected_answer_keywords": [
+            "Ultimate Beneficial Owner",
+            "UBO",
+            "25 percent",
+            "natural person",
+            "legal entities"
+        ],
+        "jurisdiction": "Cross",
+        "regulation_type": "BeneficialOwnership",
+        "difficulty": "hard"
+    },
+    {
+        "query": "Our KYC policy mentions CDD but omits re-verification timelines. Is this a gap?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "PARTIAL",
+            "re-verification",
+            "periodic update",
+            "high risk",
+            "every two years"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "KYC",
+        "difficulty": "medium",
+        "policy_excerpt": "The bank shall perform Customer Due Diligence for all new account openings. Risk categorisation shall be done at onboarding.",
+        "expected_status": "PARTIAL"
+    },
+    {
+        "query": "Our policy states: 'All cash transactions above Rs 10 lakh shall be reported to FIU-IND on a monthly basis.' Does this satisfy CTR requirements?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "COVERED",
+            "10 lakh",
+            "CTR",
+            "FIU-IND",
+            "monthly"
+        ],
+        "jurisdiction": "FIU-IND",
+        "regulation_type": "CTR",
+        "difficulty": "easy",
+        "policy_excerpt": "All cash transactions above Rs 10 lakh shall be reported to FIU-IND on a monthly basis by the 15th of the succeeding month.",
+        "expected_status": "COVERED"
+    },
+    {
+        "query": "Our policy states: 'Customer transactions are monitored by the compliance team.' Does this satisfy FATF R.10 ongoing monitoring requirements?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "PARTIAL",
+            "ongoing monitoring",
+            "consistent with",
+            "source of funds",
+            "risk profile"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "CDD",
+        "difficulty": "medium",
+        "policy_excerpt": "Customer transactions are monitored by the compliance team on a regular basis.",
+        "expected_status": "PARTIAL"
+    },
+    {
+        "query": "Our policy document has no mention of sanctions screening. Is this a critical gap?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "MISSING",
+            "sanctions",
+            "screening",
+            "FATF Recommendation 6",
+            "UN Security Council"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "Sanctions",
+        "difficulty": "medium",
+        "policy_excerpt": "The bank shall conduct KYC checks on all new customers as per RBI guidelines.",
+        "expected_status": "MISSING"
+    },
+    {
+        "query": "Our AML policy covers STR filing but sets a 30-day timeline. Is this compliant?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "PARTIAL",
+            "7 days",
+            "30 days",
+            "STR",
+            "non-compliant"
+        ],
+        "jurisdiction": "PMLA",
+        "regulation_type": "STR",
+        "difficulty": "hard",
+        "policy_excerpt": "Suspicious transactions shall be reported to FIU-IND within 30 days of detection by the Principal Officer.",
+        "expected_status": "PARTIAL"
+    },
+    {
+        "query": "Our policy states: 'The bank maintains records of all customer transactions for a minimum of 7 years from account closure.' Does this satisfy RBI and PMLA requirements?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "COVERED",
+            "5 years",
+            "7 years",
+            "record keeping",
+            "account closure"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "RecordKeeping",
+        "difficulty": "easy",
+        "policy_excerpt": "The bank maintains records of all customer transactions for a minimum of 7 years from account closure.",
+        "expected_status": "COVERED"
+    },
+    {
+        "query": "Our policy has a clause on PEP identification for foreign customers only. Does this satisfy RBI's domestic PEP requirements?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "PARTIAL",
+            "domestic PEP",
+            "foreign PEP",
+            "RBI",
+            "senior management"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "PEP",
+        "difficulty": "hard",
+        "policy_excerpt": "The bank shall conduct enhanced due diligence for all accounts identified as Politically Exposed Persons (PEPs) from foreign jurisdictions.",
+        "expected_status": "PARTIAL"
+    },
+    {
+        "query": "Our policy has no mention of EDD for correspondent banking relationships. What is the gap?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "MISSING",
+            "correspondent banking",
+            "EDD",
+            "FATF Recommendation 13",
+            "shell banks"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "EDD",
+        "difficulty": "hard",
+        "policy_excerpt": "Enhanced due diligence is applied to high-risk customers and large transactions above Rs 50 lakh.",
+        "expected_status": "MISSING"
+    },
+    {
+        "query": "Our policy covers UBO identification for companies but not for trusts. Is this a gap?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "PARTIAL",
+            "trust",
+            "beneficial owner",
+            "PMLA",
+            "settlor",
+            "trustee"
+        ],
+        "jurisdiction": "PMLA",
+        "regulation_type": "BeneficialOwnership",
+        "difficulty": "hard",
+        "policy_excerpt": "For all legal entity customers, the bank shall identify beneficial owners holding 25% or more ownership in the company.",
+        "expected_status": "PARTIAL"
+    },
+    {
+        "query": "Our policy states that all accounts are risk-categorised as Low, Medium, or High. Does this satisfy FATF's risk-based approach?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "COVERED",
+            "risk-based approach",
+            "low",
+            "medium",
+            "high",
+            "categorisation"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "CDD",
+        "difficulty": "easy",
+        "policy_excerpt": "All customer accounts are risk-categorised as Low, Medium, or High risk based on customer profile, geography, and transaction patterns. Enhanced measures are applied for high-risk accounts.",
+        "expected_status": "COVERED"
+    },
+    {
+        "query": "What does RBI require for video-based KYC (V-KYC)?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "V-CIP",
+            "video",
+            "live photograph",
+            "OTP",
+            "officially valid document"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "KYC",
+        "difficulty": "medium"
+    },
+    {
+        "query": "What is FIU-IND's mandate and to whom do regulated entities report?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "Financial Intelligence Unit",
+            "FIU-IND",
+            "Principal Officer",
+            "Ministry of Finance",
+            "suspicious transactions"
+        ],
+        "jurisdiction": "FIU-IND",
+        "regulation_type": "General",
+        "difficulty": "easy"
+    },
+    {
+        "query": "What training requirements for AML does RBI mandate for bank employees?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "training",
+            "AML",
+            "employees",
+            "awareness",
+            "periodic"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "General",
+        "difficulty": "medium"
+    },
+    {
+        "query": "What are FATF Recommendations 27-28 about supervision of AML compliance?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "supervisor",
+            "Recommendation 27",
+            "Recommendation 28",
+            "powers",
+            "enforcement"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "General",
+        "difficulty": "hard"
+    },
+    {
+        "query": "How does PMLA define 'proceeds of crime'?",
+        "intent": "summary",
+        "expected_answer_keywords": [
+            "proceeds of crime",
+            "property",
+            "offence",
+            "scheduled offence",
+            "derived or obtained"
+        ],
+        "jurisdiction": "PMLA",
+        "regulation_type": "General",
+        "difficulty": "easy"
+    },
+    {
+        "query": "What is the obligation for non-face-to-face customer identification under RBI KYC norms?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "non-face-to-face",
+            "additional safeguards",
+            "certified documents",
+            "first payment"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "KYC",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Our STR policy covers all reporting obligations per PMLA Section 12. Is there any additional FATF requirement we may be missing?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "PARTIAL",
+            "MISSING",
+            "COVERED",
+            "attempted transactions",
+            "FATF Recommendation 20",
+            "tipping off"
+        ],
+        "jurisdiction": "Cross",
+        "regulation_type": "STR",
+        "difficulty": "hard",
+        "policy_excerpt": "The Principal Officer shall file an STR with FIU-IND within 7 days of a transaction being identified as suspicious under PMLA Section 12.",
+        "expected_status": "PARTIAL"
+    },
+    {
+        "query": "Our policy covers customer identification but has no clause on monitoring for adverse media or sanctions list changes. Is this a gap?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "MISSING",
+            "adverse media",
+            "sanctions screening",
+            "ongoing monitoring",
+            "FATF"
+        ],
+        "jurisdiction": "FATF",
+        "regulation_type": "CDD",
+        "difficulty": "medium",
+        "policy_excerpt": "Customer identification is performed at account opening using officially valid documents. KYC is refreshed every 5 years for low-risk customers.",
+        "expected_status": "MISSING"
+    },
+    {
+        "query": "Our policy states employees must undergo AML training annually. Does this fully satisfy RBI training requirements?",
+        "intent": "gap_analysis",
+        "expected_answer_keywords": [
+            "COVERED",
+            "training",
+            "annual",
+            "AML",
+            "employees"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "General",
+        "difficulty": "easy",
+        "policy_excerpt": "All bank employees shall undergo mandatory AML/CFT training at least once annually. New employees must complete training within 30 days of joining.",
+        "expected_status": "COVERED"
+    },
+    {
+        "query": "What measures does RBI prescribe for non-cooperative customers who refuse to provide KYC documents?",
+        "intent": "regulatory_lookup",
+        "expected_answer_keywords": [
+            "non-cooperative",
+            "exit",
+            "suspicious transaction",
+            "closing account",
+            "STR"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "KYC",
+        "difficulty": "hard"
+    },
+    {
+        "query": "Suggest specific policy language to address the missing CTR clause for transactions just below the Rs 10 lakh threshold (structuring risk).",
+        "intent": "remediation",
+        "expected_answer_keywords": [
+            "structuring",
+            "smurfing",
+            "below threshold",
+            "pattern",
+            "CTR",
+            "FIU-IND"
+        ],
+        "jurisdiction": "FIU-IND",
+        "regulation_type": "CTR",
+        "difficulty": "hard"
+    },
+    {
+        "query": "Our KYC policy has no re-verification requirement for low-risk customers who become dormant. What should we add?",
+        "intent": "remediation",
+        "expected_answer_keywords": [
+            "dormant account",
+            "re-verification",
+            "KYC",
+            "low risk",
+            "RBI",
+            "reactivation"
+        ],
+        "jurisdiction": "RBI",
+        "regulation_type": "KYC",
+        "difficulty": "medium"
+    },
+    {
+        "query": "Suggest remediation text for our policy lacking a tipping-off prohibition clause.",
+        "intent": "remediation",
+        "expected_answer_keywords": [
+            "tipping off",
+            "disclosure",
+            "prohibited",
+            "STR",
+            "customer",
+            "under investigation"
+        ],
+        "jurisdiction": "PMLA",
+        "regulation_type": "STR",
+        "difficulty": "medium"
+    }
+]

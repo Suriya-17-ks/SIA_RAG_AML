@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  backend:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: siarag-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    # Use host network for easier local development connectivity to local models if applicable
+    # network_mode: "host" 
+    
+  # Note: A real production system would also have:
+  # - A dedicated Redis/Memcached container for metrics or caching
+  # - A reverse proxy like Nginx or Traefik
+  # - The Streamlit frontend container
